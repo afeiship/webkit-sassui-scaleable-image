@@ -1,0 +1,29 @@
+{
+  "name": "webkit-sassui-scaleable-image",
+  "description": "Scaleble image.",
+  "main": [
+    "dist/webkit-sassui-scaleable-image.css",
+    "dist/webkit-sassui-scaleable-image.scss"
+  ],
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "webkit",
+    "cssui",
+    "sassui"
+  ],
+  "homepage": "https://github.com/afeiship/webkit-sassui-scaleable-image",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}

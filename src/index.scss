@@ -1,0 +1,19 @@
+/*webkit-sassui-scaleable-image Start*/
+$webkit-sassui-scaleable-image-options: (
+  color: #f00
+) !default;
+
+.webkit-sassui-scaleable-image {
+  display: block;
+  overflow: hidden;
+  .is-scaleable {
+    transition: all ease-out 0.3s;
+  }
+
+  &:hover {
+    .is-scaleable {
+      transform: scale(1.05, 1.05);
+    }
+  }
+}
+/*webkit-sassui-scaleable-image End*/
