@@ -1,15 +1,17 @@
 /*webkit-sassui-scaleable-image Start*/
 $webkit-sassui-scaleable-image-options: (
-  scaleable: 1.05
+  scaleable: 1.05,
+  duration: 0.3s
 ) !default;
 
 .webkit-sassui-scaleable-image {
   $scaleable: map-get( $map: $webkit-sassui-scaleable-image-options, $key: scaleable );
+  $duration: map-get( $map: $webkit-sassui-scaleable-image-options, $key: duration );
 
   display: block;
   overflow: hidden;
   .is-scaleable {
-    transition: all ease-out 0.3s;
+    transition: all ease-out $duration;
   }
 
   &:hover {

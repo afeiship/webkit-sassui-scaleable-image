@@ -1,9 +1,14 @@
 @import "../dist/index.scss";
 
 .test-webkit-sassui-scaleable-image {
-  border: 1px solid red;
+  width: 30%;
+  margin: 30px auto;
   .box {
-    width: 110px;
-    height: 110px;
+    border: 1px solid rosybrown;
+    width: 100%;
+    img {
+      width: 100%;
+      vertical-align: top;
+    }
   }
 }
