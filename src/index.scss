@@ -1,9 +1,11 @@
 /*webkit-sassui-scaleable-image Start*/
 $webkit-sassui-scaleable-image-options: (
-  color: #f00
+  scaleable: 1.05
 ) !default;
 
 .webkit-sassui-scaleable-image {
+  $scaleable: map-get( $map: $webkit-sassui-scaleable-image-options, $key: scaleable );
+
   display: block;
   overflow: hidden;
   .is-scaleable {
@@ -12,7 +14,7 @@ $webkit-sassui-scaleable-image-options: (
 
   &:hover {
     .is-scaleable {
-      transform: scale(1.05, 1.05);
+      transform: scale($scaleable, $scaleable);
     }
   }
 }
