@@ -1,12 +1,18 @@
-/*webkit-sassui-scaleable-image Start*/
-.webkit-sassui-scaleable-image {
+/*!
+ * name: @jswork/wsui-scaleable-image
+ * description: Scaleble image.
+ * homepage: https://github.com/afeiship/wsui-scaleable-image
+ * version: 1.0.0
+ * date: 2020-11-29 17:37:39
+ * license: MIT
+ */
+/*wsui-scaleable-image Start*/
+.wsui-scaleable-image {
   display: block;
   overflow: hidden; }
-  .webkit-sassui-scaleable-image .is-scaleable {
-    -webkit-transition: all ease-out 0.3s;
+  .wsui-scaleable-image .is-scaleable {
     transition: all ease-out 0.3s; }
-  .webkit-sassui-scaleable-image:hover .is-scaleable {
-    -webkit-transform: scale(1.05, 1.05);
-            transform: scale(1.05, 1.05); }
+  .wsui-scaleable-image:hover .is-scaleable {
+    transform: scale(1.05, 1.05); }
 
-/*webkit-sassui-scaleable-image End*/
+/*wsui-scaleable-image End*/

@@ -1,12 +1,21 @@
-/*webkit-sassui-scaleable-image Start*/
-$webkit-sassui-scaleable-image-options: (
+/*!
+ * name: @jswork/wsui-scaleable-image
+ * description: Scaleble image.
+ * homepage: https://github.com/afeiship/wsui-scaleable-image
+ * version: 1.0.0
+ * date: 2020-11-29 17:37:39
+ * license: MIT
+ */
+
+/*wsui-scaleable-image Start*/
+$wsui-scaleable-image-options: (
   scaleable: 1.05,
   duration: 0.3s
 ) !default;
 
-.webkit-sassui-scaleable-image {
-  $scaleable: map-get( $map: $webkit-sassui-scaleable-image-options, $key: scaleable );
-  $duration: map-get( $map: $webkit-sassui-scaleable-image-options, $key: duration );
+.wsui-scaleable-image {
+  $scaleable: map-get( $map: $wsui-scaleable-image-options, $key: scaleable );
+  $duration: map-get( $map: $wsui-scaleable-image-options, $key: duration );
 
   display: block;
   overflow: hidden;
@@ -20,4 +29,4 @@ $webkit-sassui-scaleable-image-options: (
     }
   }
 }
-/*webkit-sassui-scaleable-image End*/
+/*wsui-scaleable-image End*/

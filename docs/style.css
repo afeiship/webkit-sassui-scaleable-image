@@ -1,0 +1,37 @@
+/*!
+ * name: @jswork/wsui-scaleable-image
+ * description: Scaleble image.
+ * homepage: https://github.com/afeiship/wsui-scaleable-image
+ * version: 1.0.0
+ * date: 2020-11-29 17:37:39
+ * license: MIT
+ */
+/*wsui-scaleable-image Start*/
+.wsui-scaleable-image {
+  display: block;
+  overflow: hidden;
+}
+
+.wsui-scaleable-image .is-scaleable {
+  transition: all ease-out 0.3s;
+}
+
+.wsui-scaleable-image:hover .is-scaleable {
+  transform: scale(1.05, 1.05);
+}
+
+/*wsui-scaleable-image End*/
+.test-wsui-scaleable-image {
+  width: 30%;
+  margin: 20% auto;
+}
+
+.test-wsui-scaleable-image .box {
+  border: 1px solid lightblue;
+  width: 100%;
+}
+
+.test-wsui-scaleable-image .box img {
+  width: 100%;
+  vertical-align: top;
+}
